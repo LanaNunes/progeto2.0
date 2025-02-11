@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(247,226,214);
+}
+header{
+    background-color: rgb(255,255,255);
+    color: rgb(4,17,26);
+    text-align: center;
+    padding: 0
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color:rgb(253,236,65);
+    text-align: center;
+}
+nav ul li{
+    margin: 0 1rem;
+    display:flex;
+}
+nav li a{
+    color: rgb(4,17,26);
+    text-decoration: none;
+   font-weight: bold;
+}
+banner{
+    text-align: center;
+    padding:50px;
+    background: #e0e0e0;
+}
+banner img{
+    max-width: 50%;
+    height: auto;
+}
+section{
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+    portifolio img{
+        width: 10px;
+        height: auto;
+    }
+    img{
+        max-width: 50%;
+        height: auto;
+    }
+
+button{
+    background: rgb(253,236,65);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+footer{
+    text-align: center;
+    background: rgb(255,255,255);
+    color: rgb(4,17,26);
+    padding: 10px;
+    margin-top: 20px;
+}
+
